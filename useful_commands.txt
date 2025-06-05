@@ -1,0 +1,17 @@
+
+
+1. "if[ -d folder_name ]" - if folder exist
+2. "[ ! -d folder_name ]" - if folder not exist
+
+3. "if[ -f file_name ]" - if file exist
+4. "if[ ! -f file_name ]" - if file not exist
+
+6. "$RANDOM" - generate a ramdom number
+7. "$UID" - To show your user id (Note: root user UID is always 0)
+
+8. "/dev/null" - In case is you don't want to print the output of a command on	
+		 terminal or write in a file
+9. "set -x" - For debugging the script, it will tell you what your script gonna do
+
+10. "set -e" - If we want to exit the script when the command fail
+
