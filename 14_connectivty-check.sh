@@ -7,7 +7,7 @@
 
 read -p "check connectivity " site
 
-ping -c 1 $site
+ping -c 1 $site > /dev/null
 
 if [[ $? -eq 0 ]]
 then
