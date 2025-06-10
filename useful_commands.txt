@@ -14,4 +14,8 @@
 9. "set -x" - For debugging the script, it will tell you what your script gonna do
 
 10. "set -e" - If we want to exit the script when the command fail
+11. "nohup" - TO run the script in the baground. E.g. "nohup ./script.sh"
 
+12. "at" - to run you script at once when the time you specify. e.g. "at 02:07 AM","at 23:00 31 May 2025", then you have to give           the script location it will create a job
+    "atq" - to check the scheduled job
+    "atrm <id>" - To remove the schedule 	
