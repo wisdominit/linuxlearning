@@ -10,7 +10,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=9 ttl=116 time=15.6 ms
 64 bytes from 8.8.8.8: icmp_seq=10 ttl=116 time=8.19 ms
 64 bytes from 8.8.8.8: icmp_seq=11 ttl=116 time=9.13 ms
-64 bytes from 8.8.8.8: icmp_seq=12 ttl=116 time=8.32 ms
+Request time out
 64 bytes from 8.8.8.8: icmp_seq=13 ttl=116 time=8.60 ms
 64 bytes from 8.8.8.8: icmp_seq=14 ttl=116 time=8.81 ms
 64 bytes from 8.8.8.8: icmp_seq=15 ttl=116 time=8.74 ms
