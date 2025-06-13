@@ -14,10 +14,10 @@ do
 	if [[ $i -ge 10 ]]
 	then
 #		echo "ISP Link Down Alerts" | mail -s "Latency is greater than 5" jishnuy2k@gmail.com
-		echo $i
+#		echo $i
 		my_array+=("$i")
 	fi
 
 done
 
-echo $my_array
+echo ${my_array[@]}
