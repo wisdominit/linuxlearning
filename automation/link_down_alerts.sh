@@ -8,14 +8,15 @@
 #Check If Any Link Got Down or Not
 
 state=$(cat connectivty.log | awk -F, 'NR==2,NR==21 {print $1}')
+echo $state
 
 for i in $state
 do
-	echo $i
-#	if [[ ${i,,} == "requesttimeout" ]]
-#	then
-#		echo "Link down"
-#	fi
+#	echo $i
+	if [[ ${i,,} == "requesttimeout" ]]
+	then
+		echo "Link down"
+	fi
 done
 
 #Get the ms from the ping log file
